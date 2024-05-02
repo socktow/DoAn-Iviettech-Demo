@@ -1,0 +1,28 @@
+@import './_variable';
+
+.voucher {
+    display: flex;
+    max-width: $max-width;
+    margin: $margin-center;
+    gap: 20px;
+    justify-content: space-between;
+
+    & img {
+        width: 360px;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .voucher {
+        flex-direction: column;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .voucher {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+}

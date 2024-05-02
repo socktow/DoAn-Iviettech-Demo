@@ -1,0 +1,83 @@
+.admin__login {
+    width: 100%;
+    height: 100vh;
+    background: #fe9d6524;
+    background-image: linear-gradient(to right, rgba(254, 156, 100, 0.2) 0%, rgba(254, 156, 100, 0.2) 100%),
+        url(https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?w=360);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .admin__login-form {
+        width: 40%;
+        height: 60%;
+        background: #fff;
+        box-shadow: 5px 5px 10px rgb(254, 156, 101);
+        border-radius: 10px;
+        .form-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            gap: 10px;
+            img {
+                width: 15%;
+            }
+        }
+        .form-input {
+            padding: 0 20px;
+        }
+        .form-footer {
+            text-align: center;
+            padding-top: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #fe9d65;
+        }
+    }
+}
+.dark-style {
+    background: transparent;
+    .ant-table-thead > tr > th {
+        color: white;
+        background: #001529 !important;
+    }
+    .ant-table-tbody > tr > td {
+        color: white;
+        background: #001529 !important;
+    }
+}
+.light-style {
+    background: transparent;
+    .ant-table-thead > tr > th {
+        color: #001529;
+        background: white !important;
+    }
+    .ant-table-tbody > tr > td {
+        color: #001529;
+        background: white !important;
+    }
+}
+.setting-style-dark {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    background: #001529 !important;
+    .dark-style {
+        color: white;
+    }
+}
+.setting-style-light {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    color: #001529;
+    background: white !important;
+    .light-style {
+        background: transparent;
+    }
+}

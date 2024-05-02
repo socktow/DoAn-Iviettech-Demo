@@ -1,0 +1,101 @@
+@import './_variable';
+
+.products {
+    background: #efefef;
+    padding: 50px 0;
+
+    & .products__content {
+        border-radius: 30px;
+        max-width: $max-width;
+        margin: $margin-center;
+        display: flex;
+        background-color: $white-color;
+    }
+
+    & .product__items {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px 20px 70px 20px;
+        flex-basis: 80%;
+    }
+
+    & .product__list {
+        padding: 20px;
+        flex-grow: 1;
+    }
+
+    .category__list {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 15%;
+            height: 3px;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        & li {
+            padding: 10px 0;
+            list-style: none;
+            border-bottom: 1px solid #334862;
+
+            & a {
+                padding: 0 5px;
+                color: #334862;
+                font-size: 16px;
+            }
+        }
+
+        .active-style {
+            background: $background;
+            color: $white-color;
+
+            a {
+                color: $white-color;
+            }
+        }
+    }
+
+    .price-left {
+        position: absolute;
+        left: 23%;
+    }
+
+    .price-right {
+        position: relative;
+        left: -45%;
+    }
+
+    .non-active-style {
+        background: transparent;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .products {
+        .products__content {
+            flex-direction: column-reverse;
+        }
+
+        .product__items {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .products {
+        .products__content {
+            flex-direction: column-reverse;
+        }
+
+        .product__items {
+            padding: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: unset;
+        }
+    }
+}

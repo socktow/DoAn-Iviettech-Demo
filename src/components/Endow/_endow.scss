@@ -1,0 +1,24 @@
+.endow-item {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+
+    &:last-child {
+        border: none;
+    }
+
+    .endow-item-img img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .endow-item-text > p {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+}

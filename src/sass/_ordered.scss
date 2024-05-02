@@ -1,0 +1,28 @@
+@import './_variable';
+
+.ordered-page {
+    background: #efefef;
+    padding: 50px;
+
+    .order {
+        max-width: $max-width;
+        margin: $margin-center;
+        padding: 30px;
+        background: #fff;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    .order-list,
+    .order-item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .ordered-page {
+        padding: 10px;
+    }
+}

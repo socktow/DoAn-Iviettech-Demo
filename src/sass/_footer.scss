@@ -1,0 +1,45 @@
+@import './_variable';
+footer {
+    background-image: url('https://clmensstore.com/wp-content/uploads/2021/07/505c86078071cfa05794264907521db9-scaled.jpg');
+    z-index: -1;
+    color: #fff;
+
+    & .footer__content {
+        padding-top: 50px;
+        max-width: $max-width;
+        margin: $margin-center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    & .footer__content span {
+        font-size: 20px;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 50px;
+            height: 3px;
+            top: 130%;
+            left: 0%;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    & .footer__content ul,
+    & .footer__content p {
+        margin-top: 24px;
+    }
+
+    & .footer__content ul li {
+        list-style: none;
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 46.1875em) {
+     .footer__content {
+        flex-direction: column;
+    }
+}

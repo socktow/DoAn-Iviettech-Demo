@@ -1,0 +1,46 @@
+@import './variable';
+
+.btn-add-to-card {
+    margin-top: 10px;
+    border: 2px solid $background;
+    font-weight: bold;
+    font-size: 12px;
+    color: $background;
+
+    &:hover {
+        background-color: $background;
+        border-color: $background;
+        color: #fff;
+        transition: 0.3s;
+    }
+}
+
+.checkout-btn {
+    padding: 0 1.2em;
+    background-color: #007562;
+    color: $white-color;
+}
+
+.sale-icon {
+    position: absolute;
+    z-index: 1;
+    font-size: 15px;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    top: 5px;
+    right: -14px;
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: 600;
+    padding: 0 5px;
+    color: #ffffff;
+    background: $background;
+}
+
+// Responsive
+// @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+//     .header {
+//         display: none;
+//     }
+// }

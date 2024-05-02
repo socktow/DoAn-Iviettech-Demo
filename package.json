@@ -1,0 +1,75 @@
+{
+    "name": "project-iviettech",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "@ant-design/plots": "^1.1.1",
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-brands-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^13.5.0",
+        "antd": "^4.21.5",
+        "assert": "^2.0.0",
+        "axios": "^0.27.2",
+        "buffer": "^6.0.3",
+        "crypto-browserify": "^3.12.0",
+        "framer-motion": "^6.4.3",
+        "fs": "^0.0.1-security",
+        "https-browserify": "^1.0.0",
+        "json-server": "^0.17.0",
+        "jsonwebtoken": "^8.5.1",
+        "os": "^0.1.2",
+        "os-browserify": "^0.3.0",
+        "path-browserify": "^1.0.1",
+        "process": "^0.11.10",
+        "query-string": "^7.1.1",
+        "react": "^18.2.0",
+        "react-app-rewired": "^2.2.1",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.0.2",
+        "react-router-dom": "^5.3.3",
+        "react-scripts": "^5.0.1",
+        "redux": "^4.2.0",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-saga": "^1.1.3",
+        "sass": "^1.53.0",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "swiper": "^8.3.0",
+        "url": "^0.11.0",
+        "util": "^0.12.4",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-app-rewired eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ],
+        "env": {
+            "browser": true,
+            "node": true
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

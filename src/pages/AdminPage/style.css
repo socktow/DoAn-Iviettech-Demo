@@ -1,0 +1,115 @@
+.admin__login {
+  width: 100%;
+  height: 100vh;
+  background: #fe9d6524;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(254, 156, 100, 0.2)), to(rgba(254, 156, 100, 0.2))), url(https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?w=360);
+  background-image: linear-gradient(to right, rgba(254, 156, 100, 0.2) 0%, rgba(254, 156, 100, 0.2) 100%), url(https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?w=360);
+  background-repeat: repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin__login .admin__login-form {
+  width: 40%;
+  height: 60%;
+  background: #fff;
+  -webkit-box-shadow: 5px 5px 10px #fe9c65;
+          box-shadow: 5px 5px 10px #fe9c65;
+  border-radius: 10px;
+}
+
+.admin__login .admin__login-form .form-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.admin__login .admin__login-form .form-header img {
+  width: 15%;
+}
+
+.admin__login .admin__login-form .form-input {
+  padding: 0 20px;
+}
+
+.admin__login .admin__login-form .form-footer {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fe9d65;
+}
+
+.dark-style {
+  background: transparent;
+}
+
+.dark-style .ant-table-thead > tr > th {
+  color: white;
+  background: #001529 !important;
+}
+
+.dark-style .ant-table-tbody > tr > td {
+  color: white;
+  background: #001529 !important;
+}
+
+.light-style {
+  background: transparent;
+}
+
+.light-style .ant-table-thead > tr > th {
+  color: #001529;
+  background: white !important;
+}
+
+.light-style .ant-table-tbody > tr > td {
+  color: #001529;
+  background: white !important;
+}
+
+.setting-style-dark {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  background: #001529 !important;
+}
+
+.setting-style-dark .dark-style {
+  color: white;
+}
+
+.setting-style-light {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  color: #001529;
+  background: white !important;
+}
+
+.setting-style-light .light-style {
+  background: transparent;
+}
+/*# sourceMappingURL=style.css.map */
